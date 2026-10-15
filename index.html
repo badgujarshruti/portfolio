@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shruti Badgujar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h1>Shruti Vikas Badgujar Portfolio</h1>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="page">
+    <h1>Hello, I'm <span>Shruti Vikas Badgujar</span></h1>
+    <br>
+    <p>Java Backend Developer | Spring Boot & Angular Full-Stack Developer</p>
+   <div class="resume-box">
+    <h3>View My Resume</h3>
+    <p>Click below to view or download my professional resume.</p>
+
+    <a href="Shruti_Badgujar_Resume.pdf" target="_blank" class="resume-btn">
+        View Resume
+    </a>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="page">
+    <div class="about-container">
+        <h2>About Me</h2>
+       <p>
+        Results-driven final-year Computer Engineering student with proven full-stack expertise in Java, Spring Boot, and Angular. 
+        Delivered 12+ production-grade software projects as a freelance developer spanning education, booking, and business automation domains.
+    </p>
+    <p>
+        Proficient in building scalable RESTful APIs, implementing JWT-based security, and writing high-coverage test suites with JUnit 5 & Mockito. 
+        Active competitive programmer with 1,300+ problems solved on CodeChef, seeking an SDE role to engineer high-performance, test-driven backend systems.
+    </p>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="page">
+    <div class="education-container">
+        <h2>Professional Experience</h2>
+        <div class="education-table">
+            <div class="education-row">
+                <div class="edu-degree">Freelance Software Developer | Independent</div>
+                <div class="edu-institute">All-Domain Projects (Remote)</div>
+                <div class="edu-year">Jan 2024 - Present</div>
+                <p style="text-align: left; margin-top: 10px; color: #d1d5db; font-size: 14px;">
+                    • Designed and delivered 12+ end-to-end software projects using Java, Spring Boot, React.js, Node.js, Express.js, and MySQL.<br>
+                    • Architected normalized relational database schemas and secure REST APIs with JWT authentication and role-based access control (RBAC), reducing client operational overhead by up to 60%.<br>
+                    • Managed the full SDLC across multiple concurrent client projects, consistently delivering on schedule.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS LIST -->
+<section id="projects" class="page">
+    <h2>Key Projects</h2>
+    <a href="#ecommerce-project" class="project">E-Commerce Order Management System</a>
+    <a href="#ai-project" class="project">AI-Powered Teacher Assistant</a>
+    <a href="#chef-project" class="project">Chef-Booking Platform</a>
+    <a href="#pharma-project" class="project">Pharmacy Inventory Management System</a>
+</section>
+
+<!-- E-COMMERCE PROJECT -->
+<section id="ecommerce-project" class="page">
+    <div class="project-container">
+        <h2>E-Commerce Order Management System</h2>
+        <p>
+            Engineered a production-grade full-stack order platform supporting product browsing, cart management, and order tracking for ~100 simulated concurrent users.
+        </p>
+        <ul>
+            <li><strong>Technology Stack:</strong> Java, Spring Boot, Angular, MySQL, JUnit, Mockito, Docker</li>
+            <li><strong>Database Design:</strong> Designed a normalized MySQL schema with 8 tables; applied strategic indexing that reduced average API response time by ~35%.</li>
+            <li><strong>Security & Testing:</strong> Implemented JWT-based authentication and role-based access control. Achieved 80%+ unit test coverage via JUnit 5 & Mockito across 25+ test cases.</li>
+            <li><strong>DevOps:</strong> Containerized the Spring Boot application with Docker for consistent local-to-staging deployment.</li>
+        </ul>
+        <a href="#projects" class="btn">Back to Projects</a>
+    </div>
+</section>
+
+<!-- AI PROJECT -->
+<section id="ai-project" class="page">
+    <div class="project-container">
+        <h2>AI-Powered Teacher Assistant</h2>
+        <p>
+            Built an AI grading engine auto-evaluating quizzes and generating personalized student feedback, cutting manual grading time by 60% across 200+ assessments per semester.
+        </p>
+        <ul>
+            <li><strong>Technology Stack:</strong> Python, Flask, REST API, MySQL, pytest, Data Analysis</li>
+            <li><strong>Analytics Module:</strong> Developed a data analytics module producing student performance dashboards (accuracy trends, weak-topic heatmaps, and batch-level insights).</li>
+            <li><strong>Integration & Testing:</strong> Exposed grading logic as a REST API consumed by an Angular frontend dashboard; wrote pytest unit tests covering 15+ edge cases.</li>
+        </ul>
+        <a href="#projects" class="btn">Back to Projects</a>
+    </div>
+</section>
+
+<!-- CHEF BOOKING PROJECT -->
+<section id="chef-project" class="page">
+    <div class="project-container">
+        <h2>Chef-Booking Platform</h2>
+        <p>
+            Built a reservation system supporting chef discovery, real-time availability filtering, and booking confirmation for ~50 concurrent users.
+        </p>
+        <ul>
+            <li><strong>Technology Stack:</strong> Java, Spring Boot, JSP, MySQL, JavaMail, Spring Security, JUnit</li>
+            <li><strong>Core Integrations:</strong> Integrated JavaMail API for automated booking confirmations and reminders, eliminating 100% of manual notification overhead.</li>
+            <li><strong>Security:</strong> Secured the platform with Spring Security (session-based auth, separate Admin/User roles) and validated double-booking prevention via JUnit tests.</li>
+        </ul>
+        <a href="#projects" class="btn">Back to Projects</a>
+    </div>
+</section>
+
+<!-- PHARMACY PROJECT -->
+<section id="pharma-project" class="page">
+    <div class="project-container">
+        <h2>Pharmacy Inventory Management System</h2>
+        <p>
+            Built a database-driven inventory system managing 300+ medicine records with automated stock-level alerts and reorder triggers.
+        </p>
+        <ul>
+            <li><strong>Technology Stack:</strong> JSP, Servlets, Apache Tomcat, MySQL</li>
+            <li><strong>Optimization:</strong> Rewrote 8 critical SQL queries using indexing and JOIN optimization, reducing average page-load time by ~40% on a 10K-record dataset.</li>
+            <li><strong>Security Features:</strong> Implemented role-based login (Admin/Pharmacist) with session management and CSRF protection.</li>
+        </ul>
+        <a href="#projects" class="btn">Back to Projects</a>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="page">
+    <h2>Technical Skills & Competencies</h2>
+    <div class="skills-table">
+        <div class="skill-row">
+            <div class="skill-category">Backend Development</div>
+            <div class="skill-items">Java, Spring Boot, Spring Security, RESTful APIs, JDBC, JPA/Hibernate, Servlets</div>
+        </div>
+        <div class="skill-row">
+            <div class="skill-category">Frontend Development</div>
+            <div class="skill-items">Angular, TypeScript, HTML5, CSS3, JavaScript, Bootstrap</div>
+        </div>
+        <div class="skill-row">
+            <div class="skill-category">Databases</div>
+            <div class="skill-items">MySQL, PostgreSQL (Schema design, Indexing, JOIN optimization)</div>
+        </div>
+        <div class="skill-row">
+            <div class="skill-category">Testing Frameworks</div>
+            <div class="skill-items">JUnit 5, Mockito, pytest (Unit & Integration testing, 80%+ coverage)</div>
+        </div>
+        <div class="skill-row">
+            <div class="skill-category">DevOps & Tools</div>
+            <div class="skill-items">Docker, Git/GitHub, Maven, Postman, IntelliJ IDEA, Apache Tomcat, Linux CLI</div>
+        </div>
+        <div class="skill-row">
+            <div class="skill-category">Competitive Programming</div>
+            <div class="skill-items">1,300+ problems solved on CodeChef (Arrays, Graphs, Dynamic Programming, Trees)</div>
+        </div>
+        <div class="skill-row">
+            <div class="skill-category">Core CS Competencies</div>
+            <div class="skill-items">Data Structures & Algorithms (DSA), OOP, DBMS, Operating Systems</div>
+        </div>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="page">
+    <div class="education-container">
+        <h2>Education & Training</h2>
+        <div class="education-table">
+            <div class="education-row">
+                <div class="edu-degree">B.Tech in Computer Engineering</div>
+                <div class="edu-institute">R. C. Patel Institute of Technology, Shirpur</div>
+                <div class="edu-year">Oct 2022 - Jun 2026</div>
+            </div>
+            <div class="education-row">
+                <div class="edu-degree">Full-Stack Development Training</div>
+                <div class="edu-institute">Symbiosis Skills & Professional University, Pune</div>
+                <div class="edu-year">Feb 2026 - Apr 2026</div>
+                <p style="text-align: left; margin-top: 5px; color: #94a3b8; font-size: 14px;">Intensive 3-month training in Java, SQL database management, and Angular frontend development.</p>
+            </div>
+            <div class="education-row">
+                <div class="edu-degree">HSC (Science)</div>
+                <div class="edu-institute">Z. B. Patil College, Dhule</div>
+                <div class="edu-year">Jun 2020 - Apr 2022</div>
+            </div>
+            <div class="education-row">
+                <div class="edu-degree">SSC</div>
+                <div class="edu-institute">Canossa Convent High School, Dhule</div>
+                <div class="edu-year">Completed Apr 2020</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates" class="page">
+    <div class="certificates-container">
+        <h2>Certifications & Recognition</h2>
+        <ul>
+            <li><strong>PyTorch for Deep Learning Bootcamp: Zero to Mastery</strong> — Udemy</li>
+            <li><strong>Machine Learning Fundamentals & Beginner</strong> — Infosys Springboard</li>
+            <li><strong>Google Generative AI Study Jams 2024</strong> — Program Participant</li>
+            <li><strong>Google Cloud Arcade Facilitator Program</strong> — Milestone Achiever</li>
+            <li><strong>Full Stack Development</strong> — PreGrad</li>
+            <li><strong>Python Programming</strong> — Great Learning</li>
+            <li><strong>Zensar SheInspires Hackathon</strong> — Competitive Technical Solver</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="page">
+    <h2>Contact</h2>
+    <br>
+    <p>Location: Pune, Maharashtra, India</p><br>
+    <p>Email: shrutibadgujar18@gmail.com</p><br>
+    <p>Phone: +91 9529849898</p>
+    <br>
+    <div class="social-links">
+        <a href="https://github.com/badgujarshruti" target="_blank" class="github">GitHub</a>
+        <a href="https://linkedin.com/in/shruti-badgujar-113a87259" target="_blank" class="linkedin">LinkedIn</a>
+    </div>
+    <br><br>
+    <a href="Shruti_Vikas_Badgujar_Resume_thynktech (1).pdf" download class="btn">Download Resume</a>
+</section>
+
+</body>
+</html>
